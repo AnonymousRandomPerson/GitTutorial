@@ -1,8 +1,9 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 namespace Somewhere {
 
     /// <summary>
+    /// ???
     /// !!!
     /// </summary>
     class LightSwitch : MonoBehaviour {
