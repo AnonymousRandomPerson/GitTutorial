@@ -7,14 +7,14 @@ namespace Somewhere {
     /// </summary>
     class LightSwitch : MonoBehaviour {
 
-        public GameObject gameObj;
+        public GameObject lightSwitchGameObj;
 
         /// <summary>
         /// Updates the object.
         /// </summary>
         private void Update() {
             if (Input.GetKeyDown(KeyCode.Space)) {
-                gameObj.SetActive(!gameObj.activeSelf);
+                lightSwitchGameObj.SetActive(!lightSwitchGameObj.activeSelf);
             }
         }
     }
