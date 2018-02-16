@@ -3,7 +3,7 @@
 namespace Somewhere {
 
     /// <summary>
-    /// 
+    /// ???
     /// </summary>
     class LightSwitch : MonoBehaviour {
 
